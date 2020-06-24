@@ -1,0 +1,42 @@
+[
+	{
+		"kind": "hsl",
+		"components": {
+			"hue": 90,
+			"saturation": 35,
+			"lightness": 71
+		}
+	},
+	{
+		"kind": "hsl",
+		"components": {
+			"hue": 285,
+			"saturation": 16,
+			"lightness": 34
+		}
+	},
+	{
+		"kind": "rgb",
+		"components": {
+			"red": 35,
+			"green": 253,
+			"blue": 69
+		}
+	},
+	{
+		"kind": "rgb",
+		"components": {
+			"red": 32,
+			"green": 155,
+			"blue": 41
+		}
+	},
+	{
+		"kind": "hsl",
+		"components": {
+			"hue": 116,
+			"saturation": 42,
+			"lightness": 63
+		}
+	}
+]

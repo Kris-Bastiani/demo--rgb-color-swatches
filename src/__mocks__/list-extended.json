@@ -1,0 +1,42 @@
+[
+	{
+		"kind": "brgb",
+		"components": {
+			"bred": 7840,
+			"bgreen": 9985,
+			"bblue": 288
+		}
+	},
+	{
+		"kind": "rgb",
+		"components": {
+			"red": 97,
+			"green": 183,
+			"blue": 118
+		}
+	},
+	{
+		"kind": "rgb",
+		"components": {
+			"red": 108,
+			"green": 138,
+			"blue": 146
+		}
+	},
+	{
+		"kind": "brgb",
+		"components": {
+			"bred": 8569,
+			"bgreen": 7292,
+			"bblue": 8282
+		}
+	},
+	{
+		"kind": "hsl",
+		"components": {
+			"hue": 29,
+			"saturation": 61,
+			"lightness": 42
+		}
+	}
+]
