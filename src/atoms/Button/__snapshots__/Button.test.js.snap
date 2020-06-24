@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: App should match snapshot when no props are passed 1`] = `
+<div>
+  <button />
+</div>
+`;
+
+exports[`Component: App should match snapshot when props are passed 1`] = `
+<div>
+  <button>
+    foobar
+  </button>
+</div>
+`;
