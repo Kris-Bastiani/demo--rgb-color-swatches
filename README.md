@@ -1,10 +1,27 @@
+# Demo: Color swatches
+
+This project accepts data providing random sets of 5 colors in any combination of HSL, RGB, or BRGB formats.
+
+BRGB format represents red, green and blue values as integers between 0 and 10000 (inclusive).
+
+These colors are normalised into RGB format before being presented as swatches.
+
+The colors can also be refreshed using a button to generate a new set.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Assumptions
+
+I have made the assumption here that converting BRGB to RGB involves converting the integer as a percentage
+of the max value of 10000 to then determine the closest matching integer in the standard 255 scale.
+
+For example, a BRGB value of 3000 is 30% of 10000, and 30% of 255 is 76.5- therefore, the closest RGB value would be 77.
 
 ## Available Scripts
 
 In the project directory, you can run:
 
-### `yarn start`
+### `npm start`
 
 Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
@@ -12,12 +29,12 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
 
-### `yarn test`
+### `npm test`
 
 Launches the test runner in the interactive watch mode.<br />
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `yarn build`
+### `npm run build`
 
 Builds the app for production to the `build` folder.<br />
 It correctly bundles React in production mode and optimizes the build for the best performance.
@@ -27,7 +44,7 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `yarn eject`
+### `npm run eject`
 
 **Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
