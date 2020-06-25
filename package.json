@@ -1,6 +1,7 @@
 {
   "name": "demo--rgb-color-swatches",
   "version": "0.1.0",
+  "description": "Accepts data providing random sets of 5 colors in any combination of HSL, RGB, or BRGB formats and normalises them into RGB before presenting them in UI as swatches",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
