@@ -7,7 +7,7 @@ import Button from '../../atoms/Button';
 import Swatch from '../../atoms/Swatch';
 
 const updateColors = async (setColors, setSelected) => {
-	const response = await getData(`${API_BASE_URL}/list`);
+	const response = await getData(`${API_BASE_URL}/list-extended`);
 	setColors(formatColors(response));
 	setSelected('none');
 };
